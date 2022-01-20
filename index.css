@@ -292,7 +292,7 @@ h1:hover {
   color: black;
   /* text-transform: uppercase; */
   left: 45%;
-  top:490%;
+  top:495%;
 }
 
 .button:hover {
@@ -435,7 +435,7 @@ img {
 h1 {
   font-size: 15vw;
   line-height: 13vw;
-  background-image: url(images/binnentuin_6.gif); 
+  background-image: url(images/binnentuin_6.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
