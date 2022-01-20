@@ -339,3 +339,113 @@ img {
   height: 100vh;
 
 }
+
+/* -----------------MOBILE--------------- */
+
+@media screen and (max-width:450px) {
+
+  .shadowtop {
+    box-shadow: inset -30px 170px 90px -90px black;
+    background-color: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    pointer-events: none
+  }
+
+  .shadowbot {
+    box-shadow: inset -20px -170px 90px -90px black;
+    background-color: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    pointer-events: none
+
+  }
+
+.title {
+  font-size: 4vw;
+}
+
+.parallax__layer--base1 {
+    transform: translateZ(-0.5px) scale(0.4);
+  }
+
+  .parallax__layer--base2 {
+    transform: translateZ(-0.8px) scale(0.5);
+  }
+
+.parallax__layer--base3 {
+  transform: translateZ(-0.6px) scale(0.4);
+}
+
+.parallax__layer--base4 {
+    transform: translateZ(-0.35px) scale(0.5);
+  }
+
+  #img1 {
+      transform: translate(45%, -20%);
+    }
+
+  #img2 {
+        transform: translate(-45%, 110%);
+    }
+
+  #img3 {
+        transform: translate(41%, 300%);
+    }
+
+  #img4 {
+        transform: translate(-35%, 370%);
+    }
+
+  #text0 {
+    top: 30%;
+}
+
+#text1 {
+  top: 34.5%;
+}
+
+#text2 {
+    left: 30%;
+    top: 70%;
+  }
+
+  #text3 {
+    left: 25%;
+    top: 108%;
+  }
+
+  #text4 {
+      left: 24%;
+      top: 138%;
+  }
+
+.name {
+  top:200%;
+}
+
+h1 {
+  font-size: 15vw;
+  line-height: 13vw;
+  background-image: url(images/binnentuin_6.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.button {
+  top:310%;
+  left: 35%;
+  font-size: 5vw;
+}
+
+}
