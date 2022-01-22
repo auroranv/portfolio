@@ -293,8 +293,9 @@ h1:hover {
   font-size: 1.5vw;
   color: black;
   /* text-transform: uppercase; */
-  left: 45%;
-  top:495%;
+  /* left: 45%; */
+  /* top:495%; */
+  transform: translate(45vw, 495vh);
 }
 
 .button:hover {
@@ -445,8 +446,9 @@ h1 {
 }
 
 .button {
-  top:330%;
-  left: 26%;
+  /* top:330%; */
+  /* left: 26%; */
+  transform: translate(26vw, 330vh);
   font-size: 7vw;
 }
 
