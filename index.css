@@ -53,6 +53,44 @@ padding: 0;
 
 }
 
+.header {
+  top:0;
+  /* left:0; */
+  right:0%;
+  height: auto;
+  width: auto;
+  position: absolute;
+  background-color: none;
+  padding: 1vw;
+  z-index: 100;
+  /* display: inline; */
+  float: right;
+}
+
+button {
+  font-family: 'Apfel Grotezk', sans-serif;
+  font-weight: normal;
+  font-size: 1.4vw;
+  color: black;
+  background: none;
+  border: none;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  float: right;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+a.visited {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+
 .parallax {
   perspective: 1px;
   height: 100vh;
@@ -346,6 +384,10 @@ img {
 /* -----------------MOBILE--------------- */
 
 @media screen and (max-width:500px) {
+
+  button {
+    font-size: 3.5vw;
+    }
 
   .shadowtop {
     box-shadow: inset -30px 170px 90px -90px black;
