@@ -321,6 +321,16 @@ input[type='checkbox'] {
   background-image: none;
 }
 
+#tog2{
+    background-image: url(images/cities_2.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#tog2:hover {
+  background-image: none;
+}
 
 #tog3{
     background-image: url(images/kijkvrij_9.jpg);
@@ -420,6 +430,50 @@ input[type='checkbox'] {
 }
 
 #tog12:hover {
+  background-image: none;
+}
+
+#tog13{
+    background-image: url(images/present_3.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#tog13:hover {
+  background-image: none;
+}
+
+#tog14{
+    background-image: url(images/forecast_4.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#tog14:hover {
+  background-image: none;
+}
+
+#tog15{
+    background-image: url(images/happiness_6.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#tog15:hover {
+  background-image: none;
+}
+
+#tog16{
+    background-image: url(images/broadsheet_5.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#tog16:hover {
   background-image: none;
 }
 
