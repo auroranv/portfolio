@@ -53,6 +53,7 @@ purple: #832161
   height: auto;
   width: auto;
   overflow-x: hidden;
+  background: black;
 }
 
 .header {
