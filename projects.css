@@ -134,7 +134,8 @@ align-items: center;
 font-family: 'Apfel Grotezk', sans-serif;
 font-size: 1.2vw;
 /* color: white; */
-color: #F06449;
+/* color: #F06449; */
+color: grey;
 text-transform: uppercase;
 padding-top: 4vh;
     padding-bottom: 2vh;
@@ -164,8 +165,11 @@ padding-top: 4vh;
 
 }
 ::-webkit-scrollbar-thumb {
-  background: #F06449;
+  /* background: #F06449; */
+  /* background: none; */
+  background: whitesmoke;
   border-radius: 50px;
+  /* border: 1px solid whitesmoke; */
 }
 .image1::-webkit-scrollbar-track {
  background-image: linear-gradient(to right, black, silver);
