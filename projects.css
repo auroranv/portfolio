@@ -161,6 +161,8 @@ padding-top: 4vh;
  /* width: 2vh; */
  background-color: #832161;
  background-color: black;
+ width: 10px;
+ height: 10px;
 }
 ::-webkit-scrollbar-button {
 
