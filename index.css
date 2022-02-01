@@ -389,9 +389,40 @@ img {
 
 }
 
+#turn {
+  display: none;
+}
+
 /* -----------------MOBILE--------------- */
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:699px) {
+
+
+
+#turn {
+  top: 40vh;
+  display: block;
+  text-align: center;
+  /* background: yellow; */
+  top: 40vh;
+  left: -10vw;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Apfel Grotezk', sans-serif;
+  font-size: 6vw;
+  line-height: 5.8vw;
+}
+
+.parallax {
+  display: none;
+}
+
+/* FIX THIS LATER: so that if the width of the phone is less than 699, show only this message */
+
+}
+
+@media screen and (max-width:700px) {
 
   button {
     font-size: 3.5vw;
@@ -501,5 +532,7 @@ h1 {
   transform: translate(26vw, 330vh);
   font-size: 7vw;
 }
+
+
 
 }
