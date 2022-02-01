@@ -566,6 +566,7 @@ b:hover {
     padding-right: 2vw;
   }
 
+
     #tog01{
         background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/insitu_4.jpg);
         background-blend-mode: darken;
@@ -595,6 +596,17 @@ b:hover {
       background-size: cover;
   }
   #tog1:hover {
+    background: black;
+  }
+
+  #tog2{
+      background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/cities_2.png);
+      background-blend-mode: darken;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+  }
+  #tog2:hover {
     background: black;
   }
 
@@ -706,6 +718,50 @@ b:hover {
     background: black;
   }
 
+  #tog13{
+      background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/present_3.png);
+      background-blend-mode: darken;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+  }
+  #tog13:hover {
+    background: black;
+  }
+
+  #tog14{
+      background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/forecast_4.png);
+      background-blend-mode: darken;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+  }
+  #tog14:hover {
+    background: black;
+  }
+
+  #tog15{
+      background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/happiness_6.png);
+      background-blend-mode: darken;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+  }
+  #tog15:hover {
+    background: black;
+  }
+
+  #tog16{
+      background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/broadsheet_3.png);
+      background-blend-mode: darken;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+  }
+  #tog16:hover {
+    background: black;
+  }
+
 
   h2 {
       font-size: 4vw;
@@ -737,7 +793,7 @@ b:hover {
   left: 1vw;
   height: 4vh;
   font-size: 3vw;
-  color: #F06449;
+  color: grey;
   text-transform: uppercase;
   padding-top: 4vh;
   padding-bottom: 2vh;
@@ -766,6 +822,15 @@ b:hover {
 
   img {
     height: 40vh;
+  }
+
+  .credits {
+    font-family: 'Apfel Grotezk', sans-serif;
+    font-size: 3vw;
+    color: darkgrey;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
   }
 
 }
