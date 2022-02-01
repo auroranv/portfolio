@@ -117,11 +117,12 @@ a.visited {
 
 
 .title {
-  text-align: center;
+  text-align: left;
   position: absolute;
   font-family: 'Apfel Grotezk';
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 4vw;
+  line-height: 3.5vw;
   color: #F06449;
   /* width: 100vw; */
   /* height: auto; */
@@ -131,7 +132,8 @@ a.visited {
 
 #text0{
   left: 25%;
-  top: 39%;
+  top: 35%;
+  font-size: 2.5vw;
   text-align: left;
   color: whitesmoke;
 }
@@ -148,9 +150,10 @@ span {
 }
 
 #text2 {
-  left: 45%;
+  left: 48%;
   /* top: 180%; */
-  top:120%;
+  top:115%;
+  text-align: right;
   /* -webkit-transform: translate(-50%, -50%); */
   /* transform: translate(-50%, -50%); */
 }
@@ -164,6 +167,7 @@ span {
 #text4 {
   left: 45%;
   /* top: 430%; */
+  text-align: right;
   top:240%;
 }
 
@@ -233,6 +237,8 @@ span {
 #img2{
   transform: translate(-30%, 100%);
   float:left;
+  width: 100vw;
+  object-fit: cover;
   /* height: 60vh; */
   box-shadow: 20px -20px 60px 11px hsl(0deg 0% 0% / 30%);
 }
