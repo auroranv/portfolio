@@ -403,15 +403,15 @@ img {
   top: 40vh;
   display: block;
   text-align: center;
-  /* background: yellow; */
   top: 40vh;
-  left: -10vw;
+  left: -20vw;
   color: white;
   text-transform: uppercase;
   font-weight: normal;
   font-family: 'Apfel Grotezk', sans-serif;
   font-size: 6vw;
   line-height: 5.8vw;
+
 }
 
 .parallax {
