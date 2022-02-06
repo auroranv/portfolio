@@ -68,18 +68,7 @@ padding: 0;
   float: right;
 }
 
-button {
-  font-family: 'Apfel Grotezk', sans-serif;
-  font-weight: normal;
-  font-size: 1.4vw;
-  color: black;
-  background: none;
-  border: none;
-  /* padding-left: 1vw;
-  padding-right: 1vw; */
-  float: right;
-  text-transform: uppercase;
-}
+
 
 a {
   text-decoration: underline;
@@ -279,10 +268,43 @@ span {
 
 }
 
+button {
+  font-family: 'Apfel Grotezk', sans-serif;
+  font-weight: normal;
+  font-size: 1.4vw;
+  color: black;
+  background: none;
+  border: none;
+  /* padding-left: 1vw;
+  padding-right: 1vw; */
+  float: right;
+  text-transform: uppercase;
+}
+
+
+.button {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 20px;
+  padding-right:20px;
+  background: whitesmoke;
+  border-radius: 100px;
+  position: absolute;
+  display: flex;
+  width: auto;
+  font-family: 'Apfel Grotezk', sans-serif;
+  font-size: 2vw;
+  color: black;
+  /* text-transform: uppercase; */
+  /* left: 45%; */
+  /* top:495%; */
+  transform: translate(45vw, 400vh);
+}
+
 .name {
   margin: 0;
   padding: 0;
-  padding-bottom: 55vh;
+  /* padding-bottom: 55vh; */
   /* display: block; */
   display: flex;
   position: fixed;
@@ -292,20 +314,22 @@ span {
  /* position: fixed; */
  /* background-color: black; */
  /* opacity: 1; */
- top: 305%;
+ top: 300%;
+
 }
 
 h1 {
   font-weight: bold;
   font-family: 'Apfel Grotezk', sans-serif;
-  font-size: 11vw;
-  line-height: 9vw;
+  font-size: 25vw;
+  line-height: 25vw;
   text-align: center;
   color: #F06449;
   display: flex;
   justify-content: center;
   transform: translateY(75%);
   text-transform: uppercase;
+   /* transform: rotate(-30deg); */
 
   /* background-image: url(images/binnentuin_2.gif);
 	background-size: cover;
@@ -324,24 +348,6 @@ h1:hover {
 	-webkit-background-clip: text;
 }
 
-.button {
-  padding-top:10px;
-  padding-bottom:10px;
-  padding-left: 20px;
-  padding-right:20px;
-  background: whitesmoke;
-  border-radius: 100px;
-  position: absolute;
-  display: flex;
-  width: auto;
-  font-family: 'Apfel Grotezk', sans-serif;
-  font-size: 1.5vw;
-  color: black;
-  /* text-transform: uppercase; */
-  /* left: 45%; */
-  /* top:495%; */
-  transform: translate(45vw, 495vh);
-}
 
 .button:hover {
   background: #F06449;
@@ -531,7 +537,7 @@ h1 {
   /* top:330%; */
   /* left: 26%; */
   transform: translate(26vw, 330vh);
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 

@@ -306,6 +306,7 @@ input[type='checkbox'] {
 }
 #tog01:hover {
   background-image: none;
+  /* filter:blur(20px); */
 }
 
 #tog0{
