@@ -485,6 +485,17 @@ input[type='checkbox'] {
   background-image: none;
 }
 
+#tog17 {
+    background-image: url(images/new_order_1.png);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+#tog17:hover {
+  background-image: none;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .lbl-toggle:hover {
@@ -762,6 +773,19 @@ b:hover {
   #tog16:hover {
     background: black;
   }
+
+  #tog17{
+      background: linear-gradient(-30deg,transparent 20%, #000f56), url(images/new_order_1.png);
+      background-blend-mode: darken;
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+  }
+  #tog17:hover {
+    background: black;
+  }
+
+
 
 
   h2 {
