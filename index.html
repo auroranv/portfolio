@@ -1,152 +1,745 @@
 <!DOCTYPE html>
 <html>
-<head>
 
+<head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script> -->
   <script src="script.js"></script>
 
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 
-<style>
-html {
-  scroll-behavior: smooth;
-}
+  <title>Aurora Navarro Villacampa</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon_c_s.png">
 
-</style>
-
-<title>Aurora Navarro Villacampa</title>
-<link rel="icon" type="image/x-icon" href="images/favicon_c_s.png">
 </head>
 
 <body>
 
-<div class="shadowtop"></div>
-<div class="shadowbot"></div>
+  <div class=wrapper>
 
-<div class="header">
-  <button id="projects"><a href="projects.html">Skip intro &nbsp → &nbsp See portfolio</a></button>
-  <div class="title" id="turn">
-  ⭮<br>Please turn<br>your phone to<br>landscape mode
+    <div class="header">
+      <button id="name">Aurora Navarro Villacampa</button>
+
+      <button id="cv"><a href="images/CV_Aurora_Navarro.pdf" target="_blank">CV</a></button>
+      <button id="about"><a href="about.html">About</a></button>
+      <button id="projects"><span>Projects</span></button>
+      <!-- CV + about together on the same page.. maybe called Bio? -->
+    </div>
+
+
+    <!-- <div class="frame-wrapper">
+<iframe src='https://my.spline.design/textblur-4aa167757769b16f9d8bc96d020a2299/' frameborder='0' width='100%' height='100%'></iframe>
+</div> -->
+
+    <div class="body-wrapper">
+
+
+      <div class="wrap-collabsible">
+        <input id="collapsible18" class="toggle" type="checkbox">
+        <label for="collapsible18" class="lbl-toggle" id="tog18" tabindex="0">
+          <div class="gradient">
+            <h1>Aalto Media Lab</h1>
+            <h2> Interaction, Identity, Web / 2023 (ongoing)</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                While studying in the <span>New Media MA at Aalto Media Lab</span>, I have joined the Digital Art & Design Association (DADA).
+                In the association, I take care of <span>Corporate Relations and Outreach</span>, but I am also working on a brand identity and visual communication system for DADA.
+                <br>
+                <!-- The identity will be versatile, giving the possibility to create assets for digital and print, and leave space for the association to continue to grow with it. -->
+              </p>
+
+              <p>
+                The concept of <span>metamorphosis and constant flux</span> accurately represents a multidisciplinary place such as the Media Lab.
+                DADA advocates for student's interests and organises events, among them the audiovisual festival ÄäniAalto, interactive exhibition Flux Island and the Demo Days.
+                <br>This project is a work in progress.
+                <br><br>
+                🔗 <a href="https://www.instagram.com/dada_mlab/" target="_blank">DADA Instagram</a>
+                <br>
+                🔗 <a href="https://dada.ayy.fi/" target="_blank">DADA Website</a>
+
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image-wrapper">
+                <div class="image1" id="image1">
+                  <img id="img2" src="images/SAUNA_NIGHTS_V2_blue_FINAL.png" type="image/png" height="10%"></img>
+                  <img id="img2" src="images/SAUNA_NIGHTS_CHECKLIST_vibes_v4.png" type="image/png" height="10%"></img>
+                  <img id="img2" src="images/showcase.png" type="image/png" height="10%"></img>
+                  <img id="img2" src="images/SPRING_POTLUCK_V1.png" type="image/png" height="10%"></img>
+                  <img id="img2" src="images/rovio.png" type="image/png" height="10%"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrap-collabsible">
+        <input id="collapsible19" class="toggle" type="checkbox">
+        <label for="collapsible19" class="lbl-toggle" id="tog19" tabindex="0">
+          <div class="gradient">
+            <h1>Bravoure</h1>
+            <h2> Interaction, Identity, Motion, Web / 2022</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                Bravoure is a <span>digital design agency</span> based in Amsterdam, The Netherlands, where I worked as a <span>digital brand design</span> trainee.
+                <br>
+                I worked on digital design, branding, and motion, ranging from existing projects, to leading my own project or pitching for a new client.
+              </p>
+
+              <p>
+                🔗 <a href="https://bravoure.nl/en/" target="_blank">Bravoure's site</a>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image-wrapper">
+                <div class="image1" id="image1">
+                  <video width="auto" height="350" autoplay loop>
+                    <source src="images/Homepage_8.mp4" type="video/mp4">
+                  </video>
+                  <video width="auto" height="350" autoplay loop>
+                    <source src="images/DT_LOGO_ANIMATIE.mp4" type="video/mp4">
+                  </video>
+                  <video width="auto" height="350" autoplay loop>
+                    <source src="images/BKS_DIA_3.mp4" type="video/mp4">
+                  </video>
+                 
+                  <img id="img2" src="images/NATUURLIJK_KAPITAAL_TOOLS_V5-01.png" type="image/png" height="10%"></img>
+                  <img id="img2" src="images/awakenings_2.png" type="image/png" height="10%"></img>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrap-collabsible">
+        <input id="collapsible20" class="toggle" type="checkbox">
+        <label for="collapsible20" class="lbl-toggle" id="tog20" tabindex="0">
+          <div class="gradient">
+            <h1>in situ</h1>
+            <h2> Interaction, Identity, Web / 2021</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                <span>in situ</span> is a digital feature that allows users to <span>combat loneliness</span> and
+                find their <span>real life communities</span>, even in difficult circumstances.
+                in situ offers flexibility and convenience, without profiles, chats or infringing privacy.
+                <span>Individual connections with a collective focus.</span>
+                <br>
+                Conversation prompts submitted by participants help break the ice and
+                reflect the subjects most talked about at that specific location.
+                This data can be used to filter searches by interests.
+              </p>
+
+              <p>
+                🔗 <a href="https://aurora9721.github.io/insitu/" target="_blank">Check out the walkthrough</a>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image-wrapper">
+                <div class="image1" id="image1">
+                  <img id="img2" src="images/insitu_0.png" type="image/png" height="10%"></img>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrap-collabsible">
+        <input id="collapsible0" class="toggle" type="checkbox">
+        <label for="collapsible0" class="lbl-toggle" id="tog0" tabindex="0">
+          <div class="gradient"> 
+            <!-- <h1>BA Project & Thesis</h1> -->
+            <h1>Dwellers of the<br>Memory Palace</h1>
+            <h2> Web, 3D animation, Research, Installation / 2021</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                In a light and humorous tone, the website <span>Dwellers of the Memory Palace</span>
+                invites the participant to rediscover their domestic space by
+                engaging with it through a series of <span>uplifting self-reflections</span>.
+                Quirky routine modifications, embodiment and multi-sensory triggers
+                build a real-life memory palace for guidance and meditation, finding
+                metaphors, poetry and advice in our everyday actions.
+                <br><br>Thesis project for Graphic Design BA at the Royal Academy of Art, The Hague (KABK).
+              </p>
+
+              <p>
+
+                🔗 <a href="https://aurora9721.github.io/dwellers/" target="_blank">Project website</a>
+                <br>🔗 <a href="https://youtu.be/lFmtuIdw2vY" target="_blank">Project trailer</a>
+                <br>🔗 <a href="https://auroranv.notion.site/Dwellers-of-the-Memory-Palace-b75ea5c310fd4c528f929cc2940e30e1" target="_blank">Process documentation</a>
+                <br>🔗 <a href="https://kabk.github.io/go-theses-21-aurora-navarro/" target="_blank">Thesis site</a>
+                <br>🔗 <a href="https://online.fliphtml5.com/gdbuk/eiui/#p=1" target="_blank">Thesis digital publication</a>
+                <br>🔗 <a href="https://youtu.be/HeeNEZNe698" target="_blank">Thesis trailer</a>
+                <br><br>In my thesis, I explore the existing hierarchy of the senses and grapple with
+                the new possibilities offered by interactive and immersive technologies, particularly for their applications in branding.
+                I also ponder my role as a hybrid designer in the future of design as I see it.
+
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image-wrapper">
+                <div class="image1" id="image1">
+                  <img id="img1" src="images/dwellers_123.png" type="image/png" height="10%"></img>
+
+                  <img id="img4" src="images/dwellers_4.gif" type="image/gif" height="10%"></img>
+                  <img id="img5" src="images/dwellers_8.gif" type="image/gif" height="10%"></img>
+                  <img id="img6" src="images/dwellers_7.gif" type="image/gif" height="10%"></img>
+                  <img id="img1" src="images/dwellers_789.png" type="image/png" height="10%"></img>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible3" class="toggle" type="checkbox">
+        <label for="collapsible3" class="lbl-toggle" id="tog3" tabindex="0">
+          <div class="gradient">
+            <h1>Kijk Vrij</h1>
+            <h2>Window design, Poster / 2020</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                <span>Window sticker and city-wide poster campaign</span> for foundation and art center Stroom Den Haag,
+                in celebration of their 30th anniversary and their important role in the cultural life of the city.
+                The campaign slogan is <span>Kijk Vrij (See Freely)</span>, as they encourage dialogue and open-mindedness.
+              </p>
+              <p>
+                🔗 <a href="https://www.stroom.nl/" target="_blank">Stroom's website<br></a>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/kijkvrij_0.png" type="image/png" height="10%"></img>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible2" class="toggle" type="checkbox">
+        <label for="collapsible2" class="lbl-toggle" id="tog2" tabindex="0">
+          <div class="gradient">
+            <h1>Invisible Cities</h1>
+            <h2>Book, Editorial, Bookbinding / 2019</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                A <span>re-design of the book Invisible Cities</span> published in 1972 by <span>Italo Calvino</span>,
+                inspired by <span>research into the typography</span> and layout of the original 13th century
+                travels of Marco Polo (Livres des Merveilles du Monde) by Rustichello da Pisa.
+              </p>
+              <p>
+                Supervised by Frank Blokland
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/cities_0.png" type="image/png" height="10%"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible16" class="toggle" type="checkbox">
+        <label for="collapsible16" class="lbl-toggle" id="tog16" tabindex="0">
+          <div class="gradient">
+            <h1>Academy at War</h1>
+            <h2>Posters, Research, Editorial, Image-making / 2019</h2>
+          </div>
+          </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                An in-depth investigation into the <span>history of the Royal Academy of Art in the Hague
+                  during the Second World War</span>. Since this period was unexpectedly undocumented online,
+                I extracted most of the content from the Haags Gemeentearchief.
+                A story with anti-aircraft guns on the roof,
+                a Nazi radio station in the bike shed, removed teachers and an oppressed student body
+                unfolds in a series of <span>four posters that document my research process</span>.
+              </p>
+              <p>
+                Supervised by Laura Pappa
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/broadsheet_0.png" type="image/png" height="10%"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible4" class="toggle" type="checkbox">
+        <label for="collapsible4" class="lbl-toggle" id="tog4" tabindex="0">
+          <div class="gradient">
+            <h1>Level The Playing Field</h1>
+            <h2>Game, 3D, Coding / 2020</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                <span>Level The Playing Field</span> is a <span>web-based game</span> adapted from a 1975 promotional board game by the Federation of Dutch Trade Unions.
+                I reworked the linear board game structure and transformed it into an <span>interactive decision tree</span> (made on Twine) that visualises
+                the ways a worker could find professional success being a union member.
+                <br>In collaboration with the International Institute of Social History in Amsterdam.
+              </p>
+              <p>
+                🔗 <a href="https://aurora9721.github.io/level_the_playing_field/" target="_blank">Project website</a>
+                <br>🔗 <a href="https://github.com/aurora9721/level_the_playing_field/blob/master/archive_m.md" target="_blank">Investigation & Process</a>
+                <br>🔗 <a href="https://search.iisg.amsterdam/Record/1037521" target="_blank">IISG</a>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/level_1.png" type="image/png" height="10%"></img>
+                <img id="img6" src="images/level_6.gif" type="image/gif" height="10%"></img>
+                <img id="img2" src="images/level_0.png" type="image/png" height="10%"></img>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible1" class="toggle" type="checkbox">
+        <label for="collapsible1" class="lbl-toggle" id="tog1" tabindex="0">
+          <div class="gradient">
+            <h1>Ik Ben Er Niet</h1>
+            <h2>Book cover / 2020</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                <span>Cover design</span> for Belgian author Lize Spit's second novel titled <span>Ik Ben Er Niet (I'm Not Here)</span>, published by Das Mag.
+                My design emulates the story of a young woman who one day realises she no longer recognises her own boyfriend
+                and wonders how their relationship will survive this. Lize Spit's first novel, Het Smelt (The Melting),
+                sold over 200,000 copies, was translated to 12 languages and won various prizes.
+              </p>
+              <p>
+
+                <!-- when link added, toggle doesn't open... check styling for <a> (conflict w button?)
+                    or copy first toggle and reformat-->
+                🔗 <a href="https://www.lizespit.be/books" target="_blank">Lize Spit's website</a>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/ikbenerniet_0.png" type="image/png" height="10%"></img>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrap-collabsible">
+        <input id="collapsible5" class="toggle" type="checkbox">
+        <label for="collapsible5" class="lbl-toggle" id="tog5" tabindex="0">
+          <div class="gradient">
+            <h1>Counter-Occupants</h1>
+            <h2>3D, Coding / 2020</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                An interactive exploration of a <span>counter-occupied</span> apartment in the context of a <span>fictional social movement</span>
+                in response to the intense <span>touristification</span> of city centers. The exorbitant rents force
+                the locals to move out, resulting in cities that resemble <span>tourist theme parks.</span>
+                <br>In my movement, people would “occupy” tourist rentals and start paying <span>reasonable long-term rent,
+                  and actively engage in the community</span> again.
+                You can discover the story of the movement through the objects spread throughout the rooms.
+
+              </p>
+              <p>
+                🔗 <a href="images/Counter_Occupant_website.pdf" target="_blank">Project<br></a>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/occupants_0.png" type="image/png" height="10%"></img>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible6" class="toggle" type="checkbox">
+        <label for="collapsible6" class="lbl-toggle" id="tog6" tabindex="0">
+          <div class="gradient">
+            <h1>De Binnentuin</h1>
+            <h2>Identity, Animation, 3D / 2020</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                An identity for a techy <span>community garden</span> with a focus on sustainability and permaculture,
+                built & run by the Interactive Media Design BA and volunteers at the KABK. They grow food and medicinal herbs,
+                install sensors to monitor the plants, organise events and promote well-being by
+                opening the use of this space to everyone.
+              </p>
+              <p>
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img0" src="images/binnentuin_8.jpg" type="image/jpg" height="10%"></img>
+                <img id="img1" src="images/binnentuin_1.gif" type="image/gif" height="10%"></img>
+                <img id="img2" src="images/binnentuin_3.gif" type="image/gif" height="10%"></img>
+                <img id="img3" src="images/binnentuin_2.gif" type="image/gif" height="10%"></img>
+                <img id="img4" src="images/binnentuin_5.png" type="image/png" height="10%"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible17" class="toggle" type="checkbox">
+        <label for="collapsible17" class="lbl-toggle" id="tog17" tabindex="0">
+          <div class="gradient">
+            <h1>New Order</h1>
+            <h2>Website, Curatorial / 2020</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                As a class, we put together a list of events, people, art, etc. that influenced
+                our lives in important ways. From this list of entries in chronological
+                order, I made a second list by <span>reacting in associative ways and
+                linking each event to a new fact or story</span>.
+                On the website, the visitor can match the pairings to reveal new meanings
+                or they can scroll through each list individually.
+              </p>
+              <p>
+                🔗 <a href="https://aurora9721.github.io/new_order/" target="_blank">Project site<br></a>
+                Supervised by Bart de Baets
+
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img0" src="images/new_order_0.png" type="image/png" height="10%"></img> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="wrap-collabsible">
+        <input id="collapsible13" class="toggle" type="checkbox">
+        <label for="collapsible13" class="lbl-toggle" id="tog13" tabindex="0">
+          <div class="gradient">
+            <h1>Tense Present</h1>
+            <h2>Book, Editorial, Bookbinding / 2019</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                Two texts collected and designed as a booklet that result in a review of a book within a review of a book
+                and several perspectives on the contemporary use of the English language.
+                The texts include <span>David Foster Wallace's essay Tense Present: Democracy, English, and the Wars over
+                  Usage</span>, together with <span>Maud Newton’s Another Thing to Sort
+                  of Pin on David Foster Wallace</span>, a review for the New York Times Magazine of the aforementioned text.
+              </p>
+              <p>
+                Supervised by Matthias Kreutzer (Our Polite Society)
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/present_0.png" type="image/png" height="10%"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible8" class="toggle" type="checkbox">
+        <label for="collapsible8" class="lbl-toggle" id="tog8" tabindex="0">
+          <div class="gradient">
+           <h1>Legitimate Secret</h1>
+           <h2>3D, Animation, Video / 2019</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                <!-- Whistle-blowing on the whistle-blowers<br> -->
+                A video combining 3D animations and found footage that <span>criticises Wikileaks</span>
+                for recklessly <span>exposing</span> the personal information of <span>millions of vulnerable Turkish women</span>
+                during the 2016 post-coup d’état authoritarian crackdown. Contrasting symbolic illustration and found footage,
+                it calls for us to re-think who has access to our personal data online.
+                <br><br>Warning: some violent footage
+              </p>
+              <p>
+
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/_UXLoFXiWyc"></iframe>
+                <img id="img1" src="images/secret_0.png" type="image/png" height="10%"></img>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible14" class="toggle" type="checkbox">
+        <label for="collapsible14" class="lbl-toggle" id="tog14" tabindex="0">
+          <div class="gradient">
+           <h1>To My Ears</h1>
+           <h2>Book, Editorial, Bookbinding / 2019</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                A <span>book about the shipping forecast</span>, in which I have curated and designed
+                three different texts: An informative article, the shipping forecasts I collected
+                myself and poems by various authors inspired by the forecasts.
+                The forecasts have been <span>typographically
+                  treated so that the tone changes from telegraphic to poetic</span>.
+              </p>
+              <p>
+                Supervised by Frank Blokland
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/forecast_0.png" type="image/png" height="10%"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="wrap-collabsible">
+        <input id="collapsible15" class="toggle" type="checkbox">
+        <label for="collapsible15" class="lbl-toggle" id="tog15" tabindex="0">
+          <div class="gradient">
+           <h1>The Architecture<br>of Happiness</h1>
+           <h2>Book, Editorial, Bookbinding / 2019</h2>
+          </div>
+        </label>
+        <div class="collapsible-content">
+          <div class="content-inner">
+
+            <div class="description">
+              <p>
+                A re-design of the book <span>The Architecture of Happiness by Swiss philosopher
+                  Alain de Botton</span> on how architecture reflects human ideals of beauty and
+                ethics through the ages.
+                Woven in between chapters are additional but related texts:
+                a 99pi article on the history of the <span>Bijlmermeer public housing complex</span>
+                and designer <span>Antoni Arola's reflections on his travels in Mali</span>.
+              </p>
+              <p>
+                Supervised by Laura Pappa
+              </p>
+            </div>
+            <div class=gallery>
+              <div class="scroll" id="scroll">
+                Scroll &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="scroll" id="swipe">
+                Swipe &nbsp → &nbsp → &nbsp →
+              </div>
+              <div class="image1">
+                <img id="img1" src="images/happiness_0.png" type="image/png" height="10%"></img>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="credits">
+
+        Website by Aurora Navarro Villacampa, 2021
+
+      </div>
+
+    </div>
+
+
+
   </div>
-</div>
-
-
-
-<div class="bg"></div>
-  <!-- <div class="name" id="name">
-        <h1>Aurora<br>Navarro<br>Villacampa</h1>
-  </div> -->
-
-  <!-- <header>
-        <h1>Aurora<br>Navarro<br>Villacampa</h1>
-  </header> -->
-
-<div class="parallax" >
-
-  <div class="parallax__group" id="group1">
-
-<!-- PARALLAX LAYER 1 -->
-
-    <div class="parallax__layer parallax__layer--base1">
-      <div class="image">
-        <img id="img1" src="images/dwellers_10.gif"
-        type="image/gif"></img>
-      </div>
-    </div>
-
-    <div class="parallax__layer parallax__layer--base2">
-      <div class="image">
-      <img id="img2" src="images/cities_2.png"
-      type="image/png"></img>
-      </div>
-    </div>
-
-    <div class="parallax__layer parallax__layer--base3">
-      <div class="image">
-      <img id="img3" src="images/occupants_10.png"
-      type="image/png"></img>
-      </div>
-    </div>
-
-    <div class="parallax__layer parallax__layer--base4">
-      <div class="image">
-      <img id="img4" src="images/kijkvrij_3.png"
-      type="image/png"></img>
-      </div>
-    </div>
-
-<div class="parallax__layer parallax__layer--base5">
-    <!-- <div class="name" id="name">
-          <h1>Aurora</h1>
-    </div> -->
-    <div class="name" id="name">
-          <h1>Aurora</h1>
-    </div>
-    <a href="projects.html">
-      <div class="button">
-        see portfolio
-      </div>
-    </a>
-
-  </div>
-
-  <div class="parallax__layer parallax__layer--base6">
-  <!-- <a href="projects.html">
-    <div class="button">
-      see portfolio
-    </div>
-  </a>
-  <div class="name" id="name">
-        <h1>Aurora</h1>
-  </div> -->
-  </div>
-
-
-
-<!-- PARALLAX LAYER 2 -->
-    <div class="parallax__layer parallax__layer--base">
-      <div class="title" id="text0">
-        <!-- Hi! I'm <span>Aurora</span>. -->
-        <br>
-        My approach to design is
-        <!-- A designer whose work is -->
-        <!-- But I'll let my work do the talking. -->
-        <!-- [button: see works] -->
-      </div>
-      <div class="title" id="text1">
-        holistic and <br>open-minded
-        <!-- in situ -->
-      </div>
-      <div class="title" id="text2">
-        built on strong <br>foundations
-        <!-- invisble cities -->
-      </div>
-      <div class="title" id="text3">
-        empowers through <br>knowledge
-      <!-- occupants_10 -->
-      </div>
-      <div class="title" id="text4">
-        inspires a sense <br>of wonder
-      <!-- kijkvrij_3 -->
-      </div>
-    </div>
-
-<!-- PARALLAX LAYER ? -->
-
-
-  </div>
-
-    <div class="parallax__group" id="group2">
-
-      <div class="title">
-
-        <!-- front2¿\ -->
-      </div>
-  </div>
-
-</div>
 
 </body>
+
+</html>
